@@ -1,0 +1,13 @@
+<div>
+  <h1 align="center">{{title}}</h1>
+
+  <search-bar (onSearch)="onTagChanged($event)"></search-bar>
+
+  <div class="search-result">
+    <questions-list-view class="question-list-view" [questions]="questions" (onQuestionSelected)="onQuestionSelected($event)"></questions-list-view>
+    <question-page-view class="question-page-view" [question]="selectedQuestion"></question-page-view>
+  </div>
+
+
+
+</div>

@@ -1,0 +1,17 @@
+
+
+.search-result{
+  display: flex;
+  margin-top: 2%;
+}
+
+.question-list-view{
+  flex: 20;
+  margin-right: 5%;
+}
+
+.question-page-view{
+  flex: 50;
+  display: flex;
+
+}

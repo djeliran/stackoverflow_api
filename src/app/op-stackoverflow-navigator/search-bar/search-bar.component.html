@@ -1,0 +1,5 @@
+<form>
+  <input placeholder="Enter tag" [(ngModel)]="searchText" name="searchText">
+  <button (click)="onSearch.emit(searchText)">{{searchButtonText}}</button>
+</form>
+
